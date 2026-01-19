@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--NAVIGATION-->
+    <header class="navbar">
+        <div class="logo">PARKEZ</div>
+
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="#findParking">FIND PARKING</a>
+            <a href="#rentParking">RENT PARKING</a>
+            <a href="#HELP">HELP & INFO</a>
+        </nav>
+    </header>
+
+    <!--BANNER-->
+    <section class="banner">
+        <h1 class="banner-text">Parking made simple</h1>
+    </section>
+
+    
+    <!--FIND PARKING SECTION-->
+    <section id="findParking" class="feature-section parking">
+        <div class="feature-text">
+            <h2>Find parking anywhere <br>anytime</h2>
+            <button class="visit-btn" onclick="window.location.href='Find-parking.html'">VISIT</button>
+        </div>
+        <figure class="feature-img">
+            <img src="images/parking-lot.jpg" alt="parking lot" class="feature-image">
+        </figure>
+    </section>
+
+
+    <!--RENT PARKING SECTION-->
+    <section id="rentParking" class="feature-section renting">
+        <div class="feature-text">
+            <h2>Share your space,<br>earn effortlessly</h2>
+            <button class="visit-btn" onclick="window.location.href='Rent-parking.html'">VISIT</button>
+        </div>
+        <figure class="feature-img">
+            <img src="images/urban-parking.webp" alt="urban parking lot" class="feature-image">
+        </figure>
+    </section>
+
+    <!--INFORMATION SECTION-->
+    <section id="HELP" class="feature-section info">
+        <div class="feature-text">
+            <h2>We make parking simple Here's How</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <h3><i class="fa-solid fa-magnifying-glass-location"></i> Choose Your Parking</h3>
+                    <p> Enter your location and browse available parking spots nearby.</p>
+                </div>
+                <div class="info-item">
+                    <h3> <i class="fa-solid fa-bolt-lightning"></i> Reserve Instantly</h3>
+                    <p>Select a parking space and reserve it instantly.
+                        <br>See prices, availability, and details before confirming.</p>
+                </div>
+                <div class="info-item">
+                    <h3> <i class="fa-solid fa-car"></i> Arrive & Park</h3>
+                    <p>Drive to the location and park with confidence.
+                        <br>No searching, no waiting — your spot is ready.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FOOTER SECTION-->
+    <section class="hero-footer">
+        <div class="hero-content">
+            <h1>PARKEZ</h1>
+            <p>Parking made simple</p>
+        </div>
+    </section>
+
+    <footer class="footer-info">
+        <div class="footer-container">
+            <div class="footer-column">
+                <button class="faq-button">FAQ</button>
+            </div>
+
+            <div class="footer-column">
+                <h3>About us</h3>
+                <ul>
+                    <li><a href="#">Meet the team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contacts</h3>
+                <p>Tbilisi 0179, Georgia i.Chachavadze Avenue N82</p>
+                <p>(+995 32) 2 195 015</p>
+                <p>info@parkez.gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="burger-menu.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Chavchavadze Avenue",
+        "price": 8,
+        "distance": 0.5,
+        "number": "+995 599 48 39 20",
+        "available": 5
+    },
+    {
+        "id": 2,
+        "name": "Vake Park area",
+        "price": 6,
+        "distance": 1.2,
+        "number": "+995 598 71 53 64",
+        "available": 12
+    },
+    {
+        "id": 3,
+        "name": "Saburtalo Apartment Garage",
+        "price": 5,
+        "distance": 0.8,
+        "number": "+995 577 9021 78",
+        "available": 3
+    },
+    {
+        "id": 4,
+        "name": "Didube Residential Garage",
+        "price": 12,
+        "distance": 5.5,
+        "number": "+995 555 36 48 31",
+        "available": 20
+    },
+    {
+        "id": 5,
+        "name": "Kazbegi Avenue",
+        "price": 4,
+        "distance": 2.1,
+        "number": "+995 593 58 94 07",
+        "available": 8
+    },
+    {
+        "id": 6,
+        "name": "BTU Parking",
+        "price": 10,
+        "distance": 3.2,
+        "number": "+995 599 82 61 93",
+        "available": 2
+    },
+    {
+        "id": 7,
+        "name": "Greenhill Residential Garage",
+        "price": 3,
+        "distance": 1.5,
+        "number": "+995 593 14 07 62",
+        "available": 15
+    },
+    {
+        "id": 8,
+        "name": "Marjanishvili Square",
+        "price": 15,
+        "distance": 4.0,
+        "number": "+995 599 69 72 84",
+        "available": 25
+    },
+    {
+        "id": 9,
+        "name": "Hospital Parking",
+        "price": 7,
+        "distance": 1.8,
+        "number": "+995 577 45 10 98",
+        "available": 6
+    },
+    {
+        "id": 10,
+        "name": "Secure Courtyard Parking",
+        "price": 9,
+        "distance": 2.5,
+        "number": "+995 555 77 36 50",
+        "available": 10
+    },
+    {
+        "id": 11,
+        "name": "Avlabari Hill Garage",
+        "price": 2,
+        "distance": 6.0,
+        "number": "+995 598 63 84 17",
+        "available": 50
+    },
+    {
+        "id": 12,
+        "name": "Business District",
+        "price": 11,
+        "distance": 0.3,
+        "number": "+995 599 29 58 04",
+        "available": 4
+    }
+]

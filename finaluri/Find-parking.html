@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Find-parking.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!--NAVIGATION-->
+    <header class="navbar">
+        <div class="logo">PARKEZ</div>
+
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="index.html#HELP">HELP & INFO</a>
+        </nav>
+    </header>
+
+
+    <!--SEARCH SECTION-->
+  <section class="search-section">
+    <h1>FIND YOUR PERFECT PARKING SPOT</h1>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Enter location...">
+      <input type="number" id="maxPrice" placeholder="Max Price" onchange="applyFilters()">
+      <button onclick="searchParking()">Search</button>
+    </div>
+  </section>
+
+    <!--PARKING CARDS-->  
+    <section class="results-section">
+        <div class="results-header">
+            <div class="results-count" id="resultsCount">12 parking spots found</div>
+            <div class="sort-dropdown">
+                <select id="sortSelect" onchange="sortResults()">
+                    <option value="default">Sort by</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+        <div class="parking-grid-wrapper">
+            <div class="parking-grid" id="parkingGrid"></div>
+        </div>
+    </section>
+
+    <div class="modal" id="reservationModal">
+        <div class="modal-content">
+            <h2>Reservation Confirmed!</h2>
+            <p id="modalMessage"></p>
+            <button class="close-modal-btn" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+
+
+
+    <!--FOOTER SECTION-->
+    <section class="hero-footer">
+        <div class="hero-content">
+            <h1>PARKEZ</h1>
+            <p>Parking made simple</p>
+        </div>
+    </section>
+
+    <footer class="footer-info">
+        <div class="footer-container">
+            <div class="footer-column">
+                <button class="faq-button">FAQ</button>
+            </div>
+
+            <div class="footer-column">
+                <h3>About us</h3>
+                <ul>
+                    <li><a href="#">Meet the team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contacts</h3>
+                <p>Tbilisi 0179, Georgia i.Chachavadze Avenue N82</p>
+                <p>(+995 32) 2 195 015</p>
+                <p>info@parkez.gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="find_parkiing.js"></script>
+    <script src="burger-menu.js"></script>
+
+</body>
+</html>
